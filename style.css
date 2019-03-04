@@ -1,13 +1,7 @@
 /* 公共样式 */
 body,
 dl,
-dd,
-ul { margin: 0; }
-
-ul {
-	padding: 0;
-	list-style: none;
-}
+dd { margin: 0; }
 
 h1,h2 {
 	margin: 0;
@@ -21,18 +15,10 @@ h2 {
 body {
 	font-family: "Helvetica Neue", Helvetica, "PingFangSC-Light", "Hiragino Sans GB", "Heiti SC","microsoft yahei ui", "Microsoft YaHei", "WenQuanYi Micro Hei","Segoe UI", Arial, sans-serif;
 	font-size: 14px;
-	color: #828282;
 }
-
-a {
-	color: #256392;
-	text-decoration: none;
-}
-
-a:hover { text-decoration: underline; }
 
 .wrapper {
-	width: 910px;
+	width: 960px;
 	margin: 0 auto;
 }
 
@@ -53,6 +39,7 @@ a:hover { text-decoration: underline; }
 	font-size: 12px; 
 	margin-top: 15px;
 }
+<<<<<<< HEAD
 
 .logo dl dt { font-weight: bold; }
 
@@ -169,3 +156,6 @@ a:hover { text-decoration: underline; }
 .sidebar .recomment li span {
 	float: right;
 }
+=======
+.logo dl dt { font-weight: bold; }
+>>>>>>> parent of 140d36a... nav modify
