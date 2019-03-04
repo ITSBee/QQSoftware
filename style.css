@@ -3,13 +3,8 @@ body,
 dl,
 dd { margin: 0; }
 
-h1,h2 {
+h1 {
 	margin: 0;
-}
-
-h2 {
-	font-size: 16px;
-	font-weight: normal;
 }
 
 body {
@@ -39,11 +34,10 @@ body {
 	font-size: 12px; 
 	margin-top: 15px;
 }
-
 .logo dl dt { font-weight: bold; }
 
 .nav {
-	margin: 10px 0;
+	margin: 20px 0;
 	background: url(images/navbg.gif) no-repeat;
 }
 
@@ -78,6 +72,7 @@ body {
 	width: 88px;
 	background: url(images/home.gif) no-repeat;
   color: #000; 
+<<<<<<< HEAD
 }
 
 /* content */
@@ -157,3 +152,6 @@ body {
 }
 =======
 .logo dl dt { font-weight: bold; }
+=======
+}
+>>>>>>> parent of c2390b8... modify
