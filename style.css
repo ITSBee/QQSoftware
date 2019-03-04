@@ -3,6 +3,11 @@ body,
 dl,
 dd { margin: 0; }
 
+ul {
+	padding: 0;
+	list-style: none;
+}
+
 h1 {
 	margin: 0;
 }
@@ -72,6 +77,7 @@ body {
 	width: 88px;
 	background: url(images/home.gif) no-repeat;
   color: #000; 
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -150,8 +156,3 @@ body {
 .sidebar .recomment li span {
 	float: right;
 }
-=======
-.logo dl dt { font-weight: bold; }
-=======
-}
->>>>>>> parent of c2390b8... modify
