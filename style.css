@@ -9,8 +9,13 @@ ul {
 	list-style: none;
 }
 
-h1 {
+h1,h2 {
 	margin: 0;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: normal;
 }
 
 body {
@@ -48,10 +53,11 @@ a:hover { text-decoration: underline; }
 	font-size: 12px; 
 	margin-top: 15px;
 }
+
 .logo dl dt { font-weight: bold; }
 
 .nav {
-	margin: 20px 0;
+	margin: 10px 0;
 	background: url(images/navbg.gif) no-repeat;
 }
 
@@ -86,4 +92,80 @@ a:hover { text-decoration: underline; }
 	width: 88px;
 	background: url(images/home.gif) no-repeat;
   color: #000; 
+}
+
+/* content */
+.content { 
+	width: 600px;
+	overflow: hidden;
+}
+
+.main .content,
+.main .sidebar {
+	float: left;
+}
+
+.main .sidebar {
+	width: 280px;
+	margin-left: 30px;
+}
+
+.main .text {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	border-bottom: 1px solid #CCE6F5;
+}
+
+.content h2 span {
+	float: right;
+	font-size: 12px;
+}
+
+
+.software_list li {
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+.software_list dt a {
+	font-weight: bold;
+}
+
+.software_list li dl{
+	float: left;
+	padding-left: 48px;
+	background-position: 0 4px;
+}
+
+.software_list li span {
+	float: right;
+	font-size: 12px;
+}
+
+.software_list .down,
+.sidebar .down {
+	padding-left: 15px;
+	background: url(images/downicon.gif) 0 2px no-repeat;
+}
+
+.software_list .sw01 { background: url(images/icon_1.gif) no-repeat; }
+.software_list .sw02 { background: url(images/icon_2.gif) no-repeat; }
+.software_list .sw03 { background: url(images/icon_3.gif) no-repeat; }
+.software_list .sw04 { background: url(images/icon_4.gif) no-repeat; }
+.software_list .sw05 { background: url(images/icon_5.gif) no-repeat; }
+.software_list .sw06 { background: url(images/icon_6.gif) no-repeat; }
+
+.sidebar .news li {
+	overflow: hidden;
+	line-height: 1.8em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.sidebar .recomment { overflow: hidden; }
+
+.sidebar .recomment li span {
+	float: right;
 }
